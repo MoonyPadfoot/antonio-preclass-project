@@ -6,5 +6,7 @@ age = gets.to_i
 name_age.each do |key, value|
   if age == value
     puts "name: #{key}"
+  else
+    puts "not found"
   end
 end
